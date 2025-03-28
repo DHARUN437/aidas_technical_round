@@ -6,7 +6,7 @@ import seaborn as sns
 df = pd.read_excel('sales_data.xlsx')
 
 
-st.title("Sales Conversational Assistant")
+st.title("Conversional Insights Assistant")
 
 query = st.text_input("Ask a question about sales data:")
 
